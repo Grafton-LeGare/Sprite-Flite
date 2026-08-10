@@ -1,0 +1,28 @@
+:root {
+}
+
+.reset-label-hidden {
+    display: none;
+    top: 40%;
+    right: 15%;
+    color: rgb(232, 0, 216);
+    -unity-font-definition: url("project://database/Assets/Fonts/Play-Regular.ttf?fileID=12800000&guid=3df18074f239143779ae89a552fbe55d&type=3#Play-Regular");
+    -unity-font-style: bold;
+    font-size: 55px;
+    -unity-text-align: upper-right;
+    letter-spacing: 5px;
+}
+
+.reset-label-visible {
+    display: flex;
+    opacity: 0;
+    translate: 0 -50px;
+    -unity-font-definition: url("project://database/Assets/Fonts/Play-Regular.ttf?fileID=12800000&guid=3df18074f239143779ae89a552fbe55d&type=3#Play-Regular");
+    -unity-font-style: bold;
+    font-size: 55px;
+    -unity-text-align: upper-right;
+    top: 40%;
+    right: 15%;
+    color: rgb(232, 0, 216);
+    letter-spacing: 5px;
+}
